@@ -1,0 +1,16 @@
+filename = 'Draconic-Evolution-1.21.1-3.1.4.630.jar'
+name = 'Draconic Evolution'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '3978461170f801beda74e8e3f457743a5811f39940d3368b89b4a371b87a3fc8d10000b5affbcf60e73d432e39e64a67dc536ed7c3d59bbd5c5652559ae62de2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nBqivi8H/versions/WYBCse8z/Draconic-Evolution-1.21.1-3.1.4.630.jar'
+
+[update.modrinth]
+mod-id = 'nBqivi8H'
+version = 'WYBCse8z'

@@ -1,0 +1,16 @@
+filename = 'rftoolsbuilder-1.21-7.0.4.jar'
+name = 'RFTools Builder'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '17cce9b918ef1436e5f80b0acb424950d5e1c3e8ed338a4d895aef203d019dea32e787935d0fb685357576f8085ee28af639c5d535934ec815a278668cddd83d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/e0IclJLr/versions/W7rLle5C/rftoolsbuilder-1.21-7.0.4.jar'
+
+[update.modrinth]
+mod-id = 'e0IclJLr'
+version = 'W7rLle5C'

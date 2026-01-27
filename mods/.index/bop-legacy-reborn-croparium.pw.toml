@@ -1,0 +1,16 @@
+filename = 'cp_bop-3.0.0-build.48-neoforge-1.21.1.jar'
+name = "Biomes O' Plenty Legacy Reborn & Croparium"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '618610ef47da179b3c096519fca528443c5abd80a17a19fad872e59017885a4e52902402167aeed54d2cbfeb7ce9d2d1232c817a5f7cbfaf98fe6df04527d09b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/sF4EjKyF/versions/3bQjgKk0/cp_bop-3.0.0-build.48-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'sF4EjKyF'
+version = '3bQjgKk0'

@@ -1,0 +1,16 @@
+filename = 'MekanismTools-1.21.1-10.7.17.83.jar'
+name = 'Mekanism Tools'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a1df910c3e75b04ff7164f48e2abe0fc53937f453fb6cd8fd06a088e64d3c9d3040e6658570ae4055288c5959ea2b56d704971a07b4983a998adc870dcce97d8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tqQpq1lt/versions/KiWtMI2k/MekanismTools-1.21.1-10.7.17.83.jar'
+
+[update.modrinth]
+mod-id = 'tqQpq1lt'
+version = 'KiWtMI2k'

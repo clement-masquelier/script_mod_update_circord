@@ -3,6 +3,7 @@
 Script de synchronisation de mods style "NPM" pour Minecraft.
 #>
 
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 # --- CONFIGURATION (METTRE TON LIEN RAW ICI) ---
 $ManifestUrl = "https://raw.githubusercontent.com/clement-masquelier/script_mod_update_circord/refs/heads/main/manifest.json?token=GHSAT0AAAAAADUAQPRGUVQRHRJLC3GDAE542LZEUPQ"
 # -----------------------------------------------
@@ -22,7 +23,8 @@ if (-not (Test-Path $ModDir)) {
 # 2. Récupération de la liste (le Manifeste)
 Write-Host "[1/3] Récupération de la liste des mods..."
 try {
-    $Manifest = Invoke-RestMethod -Uri $ManifestUrl -Method Get
+    # On ajoute "?nocache=(Date)" pour forcer GitHub à nous donner la nouvelle version immédiatement
+    $Manifest = Invoke-RestMethod -Uri "$ManifestUrl&nocache=$((Get-Date).Ticks)" -Method Get
 }
 catch {
     Write-Error "[ERREUR] Impossible de télécharger la liste des mods. Vérifiez votre connexion."
@@ -44,6 +46,9 @@ foreach ($File in $LocalFiles) {
     }
 }
 
+# AJOUT IMPORTANT : Force l'utilisation de TLS 1.2 (Requis par Modrinth)
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
 # 4. Téléchargement (Installation des manquants)
 Write-Host "[3/3] Téléchargement des nouveaux mods..."
 foreach ($Item in $Manifest) {
@@ -52,14 +57,16 @@ foreach ($Item in $Manifest) {
     if (-not (Test-Path $FilePath)) {
         Write-Host "  [+] Téléchargement de : $($Item.file)" -ForegroundColor Green
         try {
-            Invoke-WebRequest -Uri $Item.url -OutFile $FilePath
+            # On ajoute un "UserAgent" pour faire croire à Modrinth qu'on est un navigateur (Chrome/Firefox)
+            # Sinon Modrinth refuse la connexion (Erreur 403 ou reset)
+            Invoke-WebRequest -Uri $Item.url -OutFile $FilePath -UserAgent "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
         }
         catch {
+            # Affiche l'erreur exacte pour comprendre
             Write-Host "      [ERREUR] Échec du téléchargement pour $($Item.file)" -ForegroundColor DarkRed
+            Write-Host "      Détails : $($_.Exception.Message)" -ForegroundColor Red
         }
     } else {
-        # (Optionnel) On pourrait vérifier la taille ou le hash ici, 
-        # mais pour l'instant on suppose que si le nom est bon, le fichier est bon.
         Write-Host "  [OK] Déjà présent : $($Item.file)" -ForegroundColor Gray
     }
 }

@@ -1,0 +1,16 @@
+filename = 'mcjtylib-1.21-9.0.20.jar'
+name = 'McJtyLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '26d98f9c2f4647524d8bb14f51fb5b2d0116013506a4051abdaae9fd64c18f42e178d81afea73bfbe028e78635152a398faa3a9beea3855736fe30a3cadd1629'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1Zu0uTEE/versions/UUyC6hPr/mcjtylib-1.21-9.0.20.jar'
+
+[update.modrinth]
+mod-id = '1Zu0uTEE'
+version = 'UUyC6hPr'
