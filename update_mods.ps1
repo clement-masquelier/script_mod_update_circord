@@ -5,7 +5,7 @@ Script de synchronisation de mods style "NPM" pour Minecraft.
 
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 # --- CONFIGURATION (METTRE TON LIEN RAW ICI) ---
-$ManifestUrl = "https://raw.githubusercontent.com/clement-masquelier/script_mod_update_circord/refs/heads/main/manifest.json?token=GHSAT0AAAAAADUAQPRGQ3H2RTMCXLICL2OC2LZFKRA"
+$ManifestUrl = "https://raw.githubusercontent.com/clement-masquelier/script_mod_update_circord/main/manifest.json"
 # -----------------------------------------------
 
 $ModDir = Join-Path $PSScriptRoot "mods"
@@ -20,31 +20,44 @@ if (-not (Test-Path $ModDir)) {
     New-Item -ItemType Directory -Force -Path $ModDir | Out-Null
 }
 
-# 2. Récupération de la liste (le Manifeste)
 Write-Host "[1/3] Récupération de la liste des mods..."
 try {
-    # On ajoute "?nocache=(Date)" pour forcer GitHub à nous donner la nouvelle version immédiatement
-    $Manifest = Invoke-RestMethod -Uri "$ManifestUrl&nocache=$((Get-Date).Ticks)" -Method Get
+    # On ajoute un paramètre nocache pour éviter les problèmes de version
+    $Url = "$ManifestUrl"
+    
+    # ÉTAPE 1 : On télécharge le contenu BRUT (Raw)
+    $RawContent = Invoke-WebRequest -Uri $Url -UseBasicParsing
+    
+    # ÉTAPE 2 : On force la conversion du texte en Objet JSON
+    # C'est ici que la magie opère pour que .file fonctionne
+    $Manifest = $RawContent.Content | ConvertFrom-Json
 }
 catch {
-    Write-Error "[ERREUR] Impossible de télécharger la liste des mods. Vérifiez votre connexion."
-    Read-Host "Appuyez sur Entrée pour quitter..."
+    Write-Error "[ERREUR] Impossible de télécharger ou lire le JSON."
+    Write-Error $_.Exception.Message
+    Read-Host "Entrée pour quitter..."
     exit
 }
 
+# DEBUG : Pour être sûr que ça a marché
+Write-Host "DEBUG : Type reçu -> $($Manifest.GetType().Name)" -ForegroundColor Magenta
+# Si ça affiche "Object[]", c'est gagné. Si ça affiche "String", c'est perdu.
+
 # Liste des noms de fichiers valides
+# Maintenant que $Manifest est un vrai tableau d'objets, .file va fonctionner
 $ValidFiles = $Manifest.file
 
 # 3. Nettoyage (Suppression des mods non listés)
-# Write-Host "[2/3] Vérification des fichiers obsolètes..."
-# $LocalFiles = Get-ChildItem -Path $ModDir -Filter "*.jar"
+Write-Host "[2/3] Vérification des fichiers obsolètes..."
+$LocalFiles = Get-ChildItem -Path $ModDir -Filter "*.jar"
 
-# foreach ($File in $LocalFiles) {
-#     if ($File.Name -notin $ValidFiles) {
-#         Write-Host "  [-] Suppression de : $($File.Name)" -ForegroundColor Red
-#         Remove-Item $File.FullName -Force
-#     }
-# }
+Write-Host "[info] validfiles : $($ValidFiles)"
+foreach ($File in $LocalFiles) {
+    if ($File.Name -notin $ValidFiles) {
+        Write-Host "  [-] Suppression de : $($File.Name)" -ForegroundColor Red
+        # Remove-Item $File.FullName -Force
+    }
+}
 
 # AJOUT IMPORTANT : Force l'utilisation de TLS 1.2 (Requis par Modrinth)
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
