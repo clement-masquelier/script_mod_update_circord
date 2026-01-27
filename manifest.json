@@ -1,10 +1,366 @@
-[
+﻿[
     {
-        "file": "sodium-neoforge-0.6.13+mc1.21.1.jar",
-        "url": "https://cdn.modrinth.com/data/AANobbMI/versions/Pb3OXVqC/sodium-neoforge-0.6.13%2Bmc1.21.1.jar"
+        "file":  "ae2wtlib-19.3.0.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/ae2wtlib-19.3.0.jar"
     },
     {
-        "file": "fabric-api-0.100.0+1.21.1.jar",
-        "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/9tZ8z7x6/fabric-api-0.100.0%2B1.21.1.jar"
+        "file":  "aether-1.21.1-1.5.10-neoforge.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/aether-1.21.1-1.5.10-neoforge.jar"
+    },
+    {
+        "file":  "antique-atlas-3.1.2+1.21.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/antique-atlas-3.1.2+1.21.jar"
+    },
+    {
+        "file":  "appleskin-neoforge-mc1.21-3.0.8.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/appleskin-neoforge-mc1.21-3.0.8.jar"
+    },
+    {
+        "file":  "appliedenergistics2-19.2.17.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/appliedenergistics2-19.2.17.jar"
+    },
+    {
+        "file":  "architectury-13.0.8-neoforge.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/architectury-13.0.8-neoforge.jar"
+    },
+    {
+        "file":  "balm-neoforge-1.21.1-21.0.56.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/balm-neoforge-1.21.1-21.0.56.jar"
+    },
+    {
+        "file":  "BiomesOPlenty-neoforge-1.21.1-21.1.0.13.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/BiomesOPlenty-neoforge-1.21.1-21.1.0.13.jar"
+    },
+    {
+        "file":  "BrandonsCore-1.21.1-3.2.1.309.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/BrandonsCore-1.21.1-3.2.1.309.jar"
+    },
+    {
+        "file":  "carryon-neoforge-1.21.1-2.2.4.4.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/carryon-neoforge-1.21.1-2.2.4.4.jar"
+    },
+    {
+        "file":  "chat_heads-0.14.2-neoforge-1.21.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/chat_heads-0.14.2-neoforge-1.21.jar"
+    },
+    {
+        "file":  "CodeChickenLib-1.21.1-4.6.1.526.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/CodeChickenLib-1.21.1-4.6.1.526.jar"
+    },
+    {
+        "file":  "connector-2.0.0-beta.12+1.21.1-full.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/connector-2.0.0-beta.12+1.21.1-full.jar"
+    },
+    {
+        "file":  "Controlling-neoforge-1.21.1-19.0.5.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/Controlling-neoforge-1.21.1-19.0.5.jar"
+    },
+    {
+        "file":  "cp_bop-3.0.0-build.48-neoforge-1.21.1.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/cp_bop-3.0.0-build.48-neoforge-1.21.1.jar"
+    },
+    {
+        "file":  "create-1.21.1-6.0.9.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/create-1.21.1-6.0.9.jar"
+    },
+    {
+        "file":  "createaddition-1.5.10.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/createaddition-1.5.10.jar"
+    },
+    {
+        "file":  "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/CreeperOverhaul-neoforge-1.21.1-4.0.6.jar"
+    },
+    {
+        "file":  "Draconic-Evolution-1.21.1-3.1.4.630.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/Draconic-Evolution-1.21.1-3.1.4.630.jar"
+    },
+    {
+        "file":  "dungeons-and-taverns-v4.4.4.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/dungeons-and-taverns-v4.4.4.jar"
+    },
+    {
+        "file":  "DungeonsArise-1.21.1-2.1.68-release.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/DungeonsArise-1.21.1-2.1.68-release.jar"
+    },
+    {
+        "file":  "elevatorid-neoforge-1.21.1-1.11.4.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/elevatorid-neoforge-1.21.1-1.11.4.jar"
+    },
+    {
+        "file":  "forgified-fabric-api-0.116.7+2.2.0+1.21.1.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/forgified-fabric-api-0.116.7+2.2.0+1.21.1.jar"
+    },
+    {
+        "file":  "framework-neoforge-1.21.1-0.13.10.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/framework-neoforge-1.21.1-0.13.10.jar"
+    },
+    {
+        "file":  "geckolib-neoforge-1.21.1-4.8.3.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/geckolib-neoforge-1.21.1-4.8.3.jar"
+    },
+    {
+        "file":  "GlitchCore-neoforge-1.21.1-2.1.0.0.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/GlitchCore-neoforge-1.21.1-2.1.0.0.jar"
+    },
+    {
+        "file":  "gravestone-neoforge-1.21.1-1.0.35.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/gravestone-neoforge-1.21.1-1.0.35.jar"
+    },
+    {
+        "file":  "guideme-21.1.15.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/guideme-21.1.15.jar"
+    },
+    {
+        "file":  "HammerLib-1.21-21.0.14.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/HammerLib-1.21-21.0.14.jar"
+    },
+    {
+        "file":  "ImmediatelyFast-NeoForge-1.6.9+1.21.1.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/ImmediatelyFast-NeoForge-1.6.9+1.21.1.jar"
+    },
+    {
+        "file":  "ImmersiveEngineering-1.21.1-12.4.2-194.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/ImmersiveEngineering-1.21.1-12.4.2-194.jar"
+    },
+    {
+        "file":  "industrialforegoing-1.21-3.6.37.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/industrialforegoing-1.21-3.6.37.jar"
+    },
+    {
+        "file":  "iris-neoforge-1.8.12+mc1.21.1.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/iris-neoforge-1.8.12+mc1.21.1.jar"
+    },
+    {
+        "file":  "Jade-1.21.1-NeoForge-15.10.4.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/Jade-1.21.1-NeoForge-15.10.4.jar"
+    },
+    {
+        "file":  "jamlib-neoforge-1.3.5+1.21.1.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/jamlib-neoforge-1.3.5+1.21.1.jar"
+    },
+    {
+        "file":  "jei-1.21.1-neoforge-19.27.0.340.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/jei-1.21.1-neoforge-19.27.0.340.jar"
+    },
+    {
+        "file":  "lithium-neoforge-0.15.1+mc1.21.1.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/lithium-neoforge-0.15.1+mc1.21.1.jar"
+    },
+    {
+        "file":  "mcjtylib-1.21-9.0.20.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/mcjtylib-1.21-9.0.20.jar"
+    },
+    {
+        "file":  "mcqoy-0.4.1+neo-1.21.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/mcqoy-0.4.1+neo-1.21.jar"
+    },
+    {
+        "file":  "Mekanism-1.21.1-10.7.17.83.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/Mekanism-1.21.1-10.7.17.83.jar"
+    },
+    {
+        "file":  "MekanismAdditions-1.21.1-10.7.17.83.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/MekanismAdditions-1.21.1-10.7.17.83.jar"
+    },
+    {
+        "file":  "mekanismcovers-1.3-BETA+1.21.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/mekanismcovers-1.3-BETA+1.21.jar"
+    },
+    {
+        "file":  "MekanismGenerators-1.21.1-10.7.17.83.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/MekanismGenerators-1.21.1-10.7.17.83.jar"
+    },
+    {
+        "file":  "MekanismTools-1.21.1-10.7.17.83.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/MekanismTools-1.21.1-10.7.17.83.jar"
+    },
+    {
+        "file":  "mekanism_unleashed-0.3.2.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/mekanism_unleashed-0.3.2.jar"
+    },
+    {
+        "file":  "moonlight-1.21-2.29.16-neoforge.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/moonlight-1.21-2.29.16-neoforge.jar"
+    },
+    {
+        "file":  "NaturesCompass-1.21.1-3.0.3-neoforge.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/NaturesCompass-1.21.1-3.0.3-neoforge.jar"
+    },
+    {
+        "file":  "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar"
+    },
+    {
+        "file":  "refurbished_furniture-neoforge-1.21.1-1.0.22.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/refurbished_furniture-neoforge-1.21.1-1.0.22.jar"
+    },
+    {
+        "file":  "resourcefulconfig-neoforge-1.21-3.0.11.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/resourcefulconfig-neoforge-1.21-3.0.11.jar"
+    },
+    {
+        "file":  "resourcefullib-neoforge-1.21-3.0.12.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/resourcefullib-neoforge-1.21-3.0.12.jar"
+    },
+    {
+        "file":  "rftoolsbase-1.21-6.0.10.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/rftoolsbase-1.21-6.0.10.jar"
+    },
+    {
+        "file":  "rftoolsbuilder-1.21-7.0.4.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/rftoolsbuilder-1.21-7.0.4.jar"
+    },
+    {
+        "file":  "rftoolscontrol-1.21-8.0.1.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/rftoolscontrol-1.21-8.0.1.jar"
+    },
+    {
+        "file":  "rftoolsdim-1.21-12.0.3.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/rftoolsdim-1.21-12.0.3.jar"
+    },
+    {
+        "file":  "rftoolspower-1.21-7.0.5.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/rftoolspower-1.21-7.0.5.jar"
+    },
+    {
+        "file":  "rftoolsstorage-1.21-6.0.4.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/rftoolsstorage-1.21-6.0.4.jar"
+    },
+    {
+        "file":  "rftoolsutility-1.21-7.0.10.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/rftoolsutility-1.21-7.0.10.jar"
+    },
+    {
+        "file":  "rightclickharvest-neoforge-4.6.1+1.21.1.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/rightclickharvest-neoforge-4.6.1+1.21.1.jar"
+    },
+    {
+        "file":  "Searchables-neoforge-1.21.1-1.0.2.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/Searchables-neoforge-1.21.1-1.0.2.jar"
+    },
+    {
+        "file":  "skinlayers3d-neoforge-1.10.1-mc1.21.1.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/skinlayers3d-neoforge-1.10.1-mc1.21.1.jar"
+    },
+    {
+        "file":  "skinrestorer-2.5.0+1.21-neoforge.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/skinrestorer-2.5.0+1.21-neoforge.jar"
+    },
+    {
+        "file":  "sodium-extra-neoforge-0.6.0+mc1.21.1.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/sodium-extra-neoforge-0.6.0+mc1.21.1.jar"
+    },
+    {
+        "file":  "sodium-neoforge-0.6.13+mc1.21.1.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/sodium-neoforge-0.6.13+mc1.21.1.jar"
+    },
+    {
+        "file":  "SolarFluxReborn-1.21.1-21.1.8.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/SolarFluxReborn-1.21.1-21.1.8.jar"
+    },
+    {
+        "file":  "sophisticatedbackpacks-1.21.1-3.25.24.1499.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/sophisticatedbackpacks-1.21.1-3.25.24.1499.jar"
+    },
+    {
+        "file":  "sophisticatedcore-1.21.1-1.3.107.1430.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/sophisticatedcore-1.21.1-1.3.107.1430.jar"
+    },
+    {
+        "file":  "supplementaries-1.21-3.5.17-neoforge.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/supplementaries-1.21-3.5.17-neoforge.jar"
+    },
+    {
+        "file":  "surveyor-1.2.1+1.21.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/surveyor-1.2.1+1.21.jar"
+    },
+    {
+        "file":  "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar"
+    },
+    {
+        "file":  "titanium-1.21-4.0.40.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/titanium-1.21-4.0.40.jar"
+    },
+    {
+        "file":  "ToolBelt-1.21.1-2.2.7.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/ToolBelt-1.21.1-2.2.7.jar"
+    },
+    {
+        "file":  "torchmaster-neoforge-1.21.1-21.1.9.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/torchmaster-neoforge-1.21.1-21.1.9.jar"
+    },
+    {
+        "file":  "voicechat-neoforge-1.21.1-2.6.11.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/voicechat-neoforge-1.21.1-2.6.11.jar"
+    },
+    {
+        "file":  "waystones-neoforge-1.21.1-21.1.25.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/waystones-neoforge-1.21.1-21.1.25.jar"
+    },
+    {
+        "file":  "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar"
+    },
+    {
+        "file":  "YungsApi-1.21.1-NeoForge-5.1.6.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/YungsApi-1.21.1-NeoForge-5.1.6.jar"
+    },
+    {
+        "file":  "YungsBetterCaves-1.21.1-NeoForge-3.1.4.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/YungsBetterCaves-1.21.1-NeoForge-3.1.4.jar"
+    },
+    {
+        "file":  "YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar"
+    },
+    {
+        "file":  "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar"
+    },
+    {
+        "file":  "YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar"
+    },
+    {
+        "file":  "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar"
+    },
+    {
+        "file":  "YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar"
+    },
+    {
+        "file":  "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar"
+    },
+    {
+        "file":  "YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar"
+    },
+    {
+        "file":  "YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar"
+    },
+    {
+        "file":  "YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar"
+    },
+    {
+        "file":  "YungsBridges-1.21.1-NeoForge-5.1.1.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/YungsBridges-1.21.1-NeoForge-5.1.1.jar"
+    },
+    {
+        "file":  "YungsCaveBiomes-1.21.1-NeoForge-3.1.1.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/YungsCaveBiomes-1.21.1-NeoForge-3.1.1.jar"
+    },
+    {
+        "file":  "YungsExtras-1.21.1-NeoForge-5.1.1.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/YungsExtras-1.21.1-NeoForge-5.1.1.jar"
+    },
+    {
+        "file":  "YungsMenuTweaks-1.21.1-NeoForge-2.1.2.jar",
+        "url":  "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/YungsMenuTweaks-1.21.1-NeoForge-2.1.2.jar"
     }
 ]
