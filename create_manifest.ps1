@@ -1,7 +1,7 @@
 # --- CONFIGURATION ---
 # L'URL où tes amis téléchargeront les fichiers (GitHub, ton site, etc.)
 # IMPORTANT : Doit finir par un "/"
-$BaseUrl = "https://github.com/clement-masquelier/script_mod_update_circord/raw/refs/heads/main/mods/"
+$BaseUrl = "https://raw.githubusercontent.com/clement-masquelier/script_mod_update_circord/refs/heads/main/mods/"
 # ---------------------
 
 $ModDir = Join-Path $PSScriptRoot "mods"

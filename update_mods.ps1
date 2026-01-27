@@ -5,7 +5,7 @@ Script de synchronisation de mods style "NPM" pour Minecraft.
 
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 # --- CONFIGURATION (METTRE TON LIEN RAW ICI) ---
-$ManifestUrl = "https://raw.githubusercontent.com/clement-masquelier/script_mod_update_circord/refs/heads/main/manifest.json?token=GHSAT0AAAAAADUAQPRGUVQRHRJLC3GDAE542LZEUPQ"
+$ManifestUrl = "https://raw.githubusercontent.com/clement-masquelier/script_mod_update_circord/refs/heads/main/manifest.json?token=GHSAT0AAAAAADUAQPRGQ3H2RTMCXLICL2OC2LZFKRA"
 # -----------------------------------------------
 
 $ModDir = Join-Path $PSScriptRoot "mods"
@@ -36,15 +36,15 @@ catch {
 $ValidFiles = $Manifest.file
 
 # 3. Nettoyage (Suppression des mods non listés)
-Write-Host "[2/3] Vérification des fichiers obsolètes..."
-$LocalFiles = Get-ChildItem -Path $ModDir -Filter "*.jar"
+# Write-Host "[2/3] Vérification des fichiers obsolètes..."
+# $LocalFiles = Get-ChildItem -Path $ModDir -Filter "*.jar"
 
-foreach ($File in $LocalFiles) {
-    if ($File.Name -notin $ValidFiles) {
-        Write-Host "  [-] Suppression de : $($File.Name)" -ForegroundColor Red
-        Remove-Item $File.FullName -Force
-    }
-}
+# foreach ($File in $LocalFiles) {
+#     if ($File.Name -notin $ValidFiles) {
+#         Write-Host "  [-] Suppression de : $($File.Name)" -ForegroundColor Red
+#         Remove-Item $File.FullName -Force
+#     }
+# }
 
 # AJOUT IMPORTANT : Force l'utilisation de TLS 1.2 (Requis par Modrinth)
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
