@@ -4,7 +4,7 @@ Script de synchronisation de mods style "NPM" pour Minecraft.
 #>
 
 # --- CONFIGURATION (METTRE TON LIEN RAW ICI) ---
-$ManifestUrl = "https://gist.githubusercontent.com/TonNom/TonGistID/raw/mods.json"
+$ManifestUrl = "https://raw.githubusercontent.com/clement-masquelier/script_mod_update_circord/refs/heads/main/manifest.json?token=GHSAT0AAAAAADUAQPRGUVQRHRJLC3GDAE542LZEUPQ"
 # -----------------------------------------------
 
 $ModDir = Join-Path $PSScriptRoot "mods"
