@@ -1,6 +1,6 @@
 # --- CONFIGURATION ---
 $ManifestUrl = "https://raw.githubusercontent.com/clement-masquelier/script_mod_update_circord/main/manifest.json"
-$ModDir = Join-Path $PSScriptRoot "mods"
+$ModDir = Join-Path $PWD "mods"
 # ---------------------
 
 Write-Host "=== Synchronisation des mods ===" -ForegroundColor Cyan
