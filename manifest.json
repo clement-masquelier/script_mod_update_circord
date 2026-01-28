@@ -8,10 +8,6 @@
         "url": "https://raw.githubusercontent.com/clement-masquelier/script_mod_update_circord/main/mods/aether-1.21.1-1.5.10-neoforge.jar"
     },
     {
-        "file": "antique-atlas-3.1.2+1.21.jar",
-        "url": "https://raw.githubusercontent.com/clement-masquelier/script_mod_update_circord/main/mods/antique-atlas-3.1.2+1.21.jar"
-    },
-    {
         "file": "appleskin-neoforge-mc1.21-3.0.8.jar",
         "url": "https://raw.githubusercontent.com/clement-masquelier/script_mod_update_circord/main/mods/appleskin-neoforge-mc1.21-3.0.8.jar"
     },
@@ -270,10 +266,6 @@
     {
         "file": "supplementaries-1.21-3.5.17-neoforge.jar",
         "url": "https://raw.githubusercontent.com/clement-masquelier/script_mod_update_circord/main/mods/supplementaries-1.21-3.5.17-neoforge.jar"
-    },
-    {
-        "file": "surveyor-1.2.1+1.21.jar",
-        "url": "https://raw.githubusercontent.com/clement-masquelier/script_mod_update_circord/main/mods/surveyor-1.2.1+1.21.jar"
     },
     {
         "file": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
