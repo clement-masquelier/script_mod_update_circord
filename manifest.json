@@ -502,5 +502,9 @@
     {
         "file": "jamd-neo-21.1.1+mc1.21.1.jar",
         "url": "https://www.curseforge.com/api/v1/mods/422981/files/6280200/download"
+    },
+    {
+        "file": "CreativeCore_NEOFORGE_v2.13.26_mc1.21.1.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/257814/files/7535729/download"
     }
 ]
