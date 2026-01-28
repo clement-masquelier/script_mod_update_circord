@@ -11,7 +11,15 @@ Write-Host "Telechargement du manifeste depuis GitHub..." -ForegroundColor Yello
 try {
     $WebClient = New-Object System.Net.WebClient
     $WebClient.Encoding = [System.Text.Encoding]::UTF8
-    $JsonContent = $WebClient.DownloadString($ManifestUrl)
+    # Ajouter un parametre nocache pour forcer le telechargement sans cache
+    $timestamp = (Get-Date).ToFileTimeUtc()
+    if ($ManifestUrl.Contains('?')) {
+        $ManifestUrlWithNoCache = $ManifestUrl + "&nocache=" + $timestamp
+    } else {
+        $ManifestUrlWithNoCache = $ManifestUrl + "?nocache=" + $timestamp
+    }
+
+    $JsonContent = $WebClient.DownloadString($ManifestUrlWithNoCache)
     $RemoteManifest = $JsonContent | ConvertFrom-Json
     
     # S'assurer que c'est un tableau
