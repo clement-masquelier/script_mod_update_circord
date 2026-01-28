@@ -354,5 +354,153 @@
     {
         "file": "YungsMenuTweaks-1.21.1-NeoForge-2.1.2.jar",
         "url": "https://raw.githubusercontent.com/clement-masquelier/script_mod_update_circord/main/mods/YungsMenuTweaks-1.21.1-NeoForge-2.1.2.jar"
+    },
+    {
+        "file": "emotecraft-for-MC1.21.1-2.4.12-neoforge.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/403422/files/6941989/download"
+    },
+    {
+        "file": "Placebo-1.21.1-9.9.1",
+        "url": "https://www.curseforge.com/api/v1/mods/283644/files/6926281/download"
+    },
+    {
+        "file": "Patchouli-1.21.1-92-NEOFORGE.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/306770/files/6842247/download"
+    },
+    {
+        "file": "ApothicSpawners-1.21.1-1.3.4.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/986583/files/7492121/download"
+    },
+    {
+        "file": "ApothicEnchanting-1.21.1-1.5.1.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/1063926/files/7444883/download"
+    },
+    {
+        "file": "ApothicAttributes-1.21.1-2.9.1.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/898963/files/7445079/download"
+    },
+    {
+        "file": "Apotheosis-1.21.1-8.4.2.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/313970/files/7444906/download"
+    },
+    {
+        "file": "xaerominimap-neoforge-1.21.1-25.3.5.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/263420/files/7412188/download"
+    },
+    {
+        "file": "xaeroworldmap-neoforge-1.21.1-1.40.6.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/317780/files/7416972/download"
+    },
+    {
+        "file": "ftb-chunks-neoforge-2101.1.13.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/314906/files/7157142/download"
+    },
+    {
+        "file": "ftb-teams-neoforge-2101.1.9.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/404468/files/7369021/download"
+    },
+    {
+        "file": "ftb-library-neoforge-2101.1.30.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/404465/files/7420412/download"
+    },
+    {
+        "file": "EnderStorage-1.21.1-2.13.0.191.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/245174/files/6159037/download"
+    },
+    {
+        "file": "AmbientSounds_NEOFORGE_v6.3.3_mc1.21.1.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/254284/files/7436578/download"
+    },
+    {
+        "file": "AkashicTome-1.8-29.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/250577/files/6049929/download"
+    },
+    {
+        "file": "kotlinforforge-5.11.0-all.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/351264/files/7471280/download"
+    },
+    {
+        "file": "AE2-Things-1.4.2-beta.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/609977/files/5637783/download"
+    },
+    {
+        "file": "megacells-4.10.2.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/622112/files/7489211/download"
+    },
+    {
+        "file": "AE2MEGAThings-1.21.1-2.0.4.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/1150075/files/6203833/download"
+    },
+    {
+        "file": "ae2importexportcard-1.21.1-1.4.1.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/982512/files/7203365/download"
+    },
+    {
+        "file": "Glodium-1.21-2.2-neoforge.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/957920/files/5821676/download"
+    },
+    {
+        "file": "AE2NetworkAnalyzer-1.21-2.1.4-neoforge.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/961856/files/7403658/download"
+    },
+    {
+        "file": "ae2jeiintegration-1.2.0.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/1074338/files/5748513/download"
+    },
+    {
+        "file": "ae2ct-1.21.1-1.1.1.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/1086241/files/7182163/download"
+    },
+    {
+        "file": "geckolib-neoforge-1.21.1-4.8.3.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/388172/files/7415496/download"
+    },
+    {
+        "file": "AdvancedAE-1.6.9-1.21.1.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/1084104/files/7374386/download"
+    },
+    {
+        "file": "TwilightTreehouses-1.0.2-1.21.1-neoforge.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/1227052/files/6341110/download"
+    },
+    {
+        "file": "tfthreadsafetyaddon-0.1.3.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/1184779/files/7426100/download"
+    },
+    {
+        "file": "twilightforest-1.21.1-4.8.3287-universal.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/227639/files/7398100/download"
+    },
+    {
+        "file": "sound-physics-remastered-neoforge-1.21.1-1.4.10.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/535489/files/6352946/download"
+    },
+    {
+        "file": "moredragoneggs-5.0.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/358700/files/5746086/download"
+    },
+    {
+        "file": "mekanism_extras-1.21.1-1.3.2.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/1026040/files/7499894/download"
+    },
+    {
+        "file": "mekanism_unleashed-0.3.2.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/1072209/files/6487994/download"
+    },
+    {
+        "file": "merequester-neoforge-1.21.1-1.4.1.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/688367/files/6935673/download"
+    },
+    {
+        "file": "javd-neo-9.0.0+mc1.21.1.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/370890/files/5711894/download"
+    },
+    {
+        "file": "trenzalore-neo-6.1.1+mc1.21.1.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/870210/files/5623160/download"
+    },
+    {
+        "file": "jamd-neo-21.1.1+mc1.21.1.jar",
+        "url": "https://www.curseforge.com/api/v1/mods/422981/files/6280200/download"
     }
 ]
